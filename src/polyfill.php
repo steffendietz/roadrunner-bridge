@@ -16,3 +16,13 @@ class_alias(
     \Spiral\RoadRunnerBridge\Bootloader\QueueBootloader::class,
     \Spiral\Bootloader\Jobs\JobsBootloader::class
 );
+
+class_alias(
+    \Spiral\RoadRunnerBridge\Bootloader\WebsocketsBootloader::class,
+    \Spiral\Bootloader\Http\WebsocketsBootloader::class
+);
+
+class_alias(
+    \Spiral\RoadRunnerBridge\Bootloader\BroadcastBootloader::class,
+    \Spiral\Bootloader\Broadcast\BroadcastBootloader::class
+);
